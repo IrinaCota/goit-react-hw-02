@@ -1,5 +1,6 @@
 import PropTypes from 'prop-types';
 import css from './Feedback.module.css';
+
 const Feedback = ({ feedback, totalFeedback, positiveFeedbackPercentage }) => {
   return (
     <div className={css.feedbackWrapper}>
